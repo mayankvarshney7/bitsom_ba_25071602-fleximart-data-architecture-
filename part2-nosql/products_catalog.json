@@ -1,1 +1,234 @@
+[
+  {
+    "product_id": "ELEC001",
+    "name": "Samsung Galaxy S21 Ultra",
+    "category": "Electronics",
+    "subcategory": "Smartphones",
+    "price": 79999,
+    "stock": 150,
+    "specifications": {
+      "brand": "Samsung",
+      "ram": "12GB",
+      "storage": "256GB",
+      "screen_size": "6.8 inches",
+      "processor": "Exynos 2100",
+      "battery": "5000mAh",
+      "camera": "108MP + 12MP + 10MP"
+    },
+    "reviews": [
+      { "user": "U001", "rating": 5, "comment": "Excellent camera quality!", "date": "2024-01-15" },
+      { "user": "U012", "rating": 4, "comment": "Great performance but expensive.", "date": "2024-02-10" }
+    ],
+    "tags": ["flagship", "5G", "android"],
+    "warranty_months": 12
+  },
+  {
+    "product_id": "ELEC002",
+    "name": "Apple MacBook Pro 14",
+    "category": "Electronics",
+    "subcategory": "Laptops",
+    "price": 189999,
+    "stock": 45,
+    "specifications": {
+      "brand": "Apple",
+      "processor": "M2 Pro",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "screen_size": "14 inches",
+      "weight": "1.6 kg"
+    },
+    "reviews": [
+      { "user": "U005", "rating": 5, "comment": "Perfect for development work.", "date": "2024-01-20" },
+      { "user": "U018", "rating": 5, "comment": "Handles heavy workloads smoothly.", "date": "2024-02-15" }
+    ],
+    "tags": ["laptop", "professional", "macOS"],
+    "warranty_months": 12
+  },
+  {
+    "product_id": "ELEC003",
+    "name": "Sony WH-1000XM5",
+    "category": "Electronics",
+    "subcategory": "Audio",
+    "price": 29990,
+    "stock": 200,
+    "specifications": {
+      "brand": "Sony",
+      "type": "Over-ear",
+      "noise_cancellation": "Active",
+      "battery_life": "30 hours"
+    },
+    "reviews": [
+      { "user": "U007", "rating": 5, "comment": "Best noise cancellation!", "date": "2024-01-25" },
+      { "user": "U014", "rating": 4, "comment": "Comfortable and great sound.", "date": "2024-02-20" }
+    ],
+    "tags": ["headphones", "wireless"],
+    "warranty_months": 24
+  },
+  {
+    "product_id": "ELEC004",
+    "name": "Dell 27-inch 4K Monitor",
+    "category": "Electronics",
+    "subcategory": "Monitors",
+    "price": 32999,
+    "stock": 60,
+    "specifications": {
+      "brand": "Dell",
+      "resolution": "4K",
+      "panel": "IPS",
+      "refresh_rate": "60Hz"
+    },
+    "reviews": [
+      { "user": "U003", "rating": 5, "comment": "Excellent for design work.", "date": "2024-02-01" },
+      { "user": "U021", "rating": 3, "comment": "Average for gaming.", "date": "2024-03-01" }
+    ],
+    "tags": ["monitor", "4K"],
+    "warranty_months": 36
+  },
+  {
+    "product_id": "ELEC005",
+    "name": "OnePlus Nord CE 3",
+    "category": "Electronics",
+    "subcategory": "Smartphones",
+    "price": 26999,
+    "stock": 180,
+    "specifications": {
+      "brand": "OnePlus",
+      "ram": "8GB",
+      "storage": "128GB",
+      "processor": "Snapdragon 782G"
+    },
+    "reviews": [
+      { "user": "U010", "rating": 4, "comment": "Great value for money.", "date": "2024-02-10" }
+    ],
+    "tags": ["smartphone", "mid-range"],
+    "warranty_months": 12
+  },
+  {
+    "product_id": "ELEC006",
+    "name": "Samsung 55-inch QLED TV",
+    "category": "Electronics",
+    "subcategory": "Televisions",
+    "price": 64999,
+    "stock": 35,
+    "specifications": {
+      "brand": "Samsung",
+      "resolution": "4K",
+      "display": "QLED",
+      "refresh_rate": "120Hz"
+    },
+    "reviews": [
+      { "user": "U008", "rating": 5, "comment": "Stunning picture quality.", "date": "2024-01-30" }
+    ],
+    "tags": ["tv", "smart-tv"],
+    "warranty_months": 24
+  },
+  {
+    "product_id": "FASH001",
+    "name": "Levi's Slim Fit Jeans",
+    "category": "Fashion",
+    "subcategory": "Clothing",
+    "price": 3499,
+    "stock": 120,
+    "specifications": {
+      "brand": "Levi's",
+      "fit": "Slim",
+      "material": "Cotton blend"
+    },
+    "reviews": [
+      { "user": "U002", "rating": 5, "comment": "Very comfortable!", "date": "2024-01-18" }
+    ],
+    "tags": ["jeans", "casual"],
+    "warranty_months": 3
+  },
+  {
+    "product_id": "FASH002",
+    "name": "Nike Air Max 270",
+    "category": "Fashion",
+    "subcategory": "Footwear",
+    "price": 12995,
+    "stock": 85,
+    "specifications": {
+      "brand": "Nike",
+      "type": "Running Shoes",
+      "sole": "Air cushioning"
+    },
+    "reviews": [
+      { "user": "U004", "rating": 5, "comment": "Super comfortable!", "date": "2024-01-22" }
+    ],
+    "tags": ["shoes", "sportswear"],
+    "warranty_months": 6
+  },
+  {
+    "product_id": "FASH003",
+    "name": "Adidas Cotton T-Shirt",
+    "category": "Fashion",
+    "subcategory": "Clothing",
+    "price": 1499,
+    "stock": 200,
+    "specifications": {
+      "brand": "Adidas",
+      "material": "100% Cotton",
+      "fit": "Regular"
+    },
+    "reviews": [
+      { "user": "U006", "rating": 4, "comment": "Good quality fabric.", "date": "2024-02-05" }
+    ],
+    "tags": ["t-shirt", "casual"],
+    "warranty_months": 3
+  },
+  {
+    "product_id": "FASH004",
+    "name": "Puma RS-X Sneakers",
+    "category": "Fashion",
+    "subcategory": "Footwear",
+    "price": 8999,
+    "stock": 95,
+    "specifications": {
+      "brand": "Puma",
+      "type": "Casual Sneakers",
+      "sole": "Rubber"
+    },
+    "reviews": [
+      { "user": "U009", "rating": 4, "comment": "Stylish and comfortable.", "date": "2024-02-12" }
+    ],
+    "tags": ["sneakers", "streetwear"],
+    "warranty_months": 6
+  },
+  {
+    "product_id": "FASH005",
+    "name": "H&M Formal Shirt",
+    "category": "Fashion",
+    "subcategory": "Clothing",
+    "price": 1999,
+    "stock": 150,
+    "specifications": {
+      "brand": "H&M",
+      "fit": "Slim",
+      "material": "Cotton blend"
+    },
+    "reviews": [
+      { "user": "U011", "rating": 4, "comment": "Good office wear.", "date": "2024-02-08" }
+    ],
+    "tags": ["formal", "office-wear"],
+    "warranty_months": 3
+  },
+  {
+    "product_id": "FASH006",
+    "name": "Reebok Training Trackpants",
+    "category": "Fashion",
+    "subcategory": "Clothing",
+    "price": 2299,
+    "stock": 130,
+    "specifications": {
+      "brand": "Reebok",
+      "fit": "Regular",
+      "material": "Polyester"
+    },
+    "reviews": [
+      { "user": "U013", "rating": 5, "comment": "Perfect for workouts.", "date": "2024-02-15" }
+    ],
+    "tags": ["sportswear", "gym"],
+    "warranty_months": 3
+  }
+]
 
