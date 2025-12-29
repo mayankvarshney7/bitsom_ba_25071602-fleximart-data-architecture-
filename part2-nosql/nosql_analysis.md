@@ -4,7 +4,7 @@ This document analyzes the suitability of MongoDB for managing FlexiMart’s div
 
 ---
 
-## Section A: Limitations of RDBMS (≈150 words)
+## Section A: Limitations of RDBMS 
 
 Relational database management systems (RDBMS) such as MySQL are built around fixed schemas, which makes them less suitable for handling highly diverse product data. In FlexiMart’s catalog, different product types require different attributes. For example, laptops need specifications such as RAM, processor, and storage, while shoes require size, color, and material. Representing all these variations in a single relational table would result in many nullable columns, leading to wasted storage and reduced clarity. Alternatively, creating separate tables for each product type increases schema complexity and maintenance effort.
 
@@ -12,7 +12,7 @@ Frequent schema changes also present a challenge. Adding new product types or at
 
 ---
 
-## Section B: NoSQL Benefits (≈150 words)
+## Section B: NoSQL Benefits 
 
 MongoDB overcomes these limitations through its document-oriented and schema-flexible design. Each product can be stored as a JSON-like document containing only the attributes relevant to that product. Electronics items can include technical specifications, while fashion products can store size and material information without affecting other documents. This flexibility eliminates the need for frequent schema changes and allows the product catalog to evolve easily.
 
@@ -20,7 +20,7 @@ MongoDB also supports embedded documents, enabling customer reviews to be stored
 
 ---
 
-## Section C: Trade-offs (≈100 words)
+## Section C: Trade-offs 
 
 Despite its advantages, MongoDB has certain drawbacks compared to relational databases. One limitation is weaker support for complex multi-table transactions. Although MongoDB supports transactions, they are generally more complex and less efficient than traditional ACID transactions in RDBMS, making MongoDB less ideal for highly transactional systems such as order processing.
 
