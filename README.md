@@ -65,4 +65,22 @@ mysql -u root -p fleximart < part1-database-etl/business_queries.sql
 mysql -u root -p fleximart_dw < part3-datawarehouse/warehouse_schema.sql
 mysql -u root -p fleximart_dw < part3-datawarehouse/warehouse_data.sql
 mysql -u root -p fleximart_dw < part3-datawarehouse/analytics_queries.sql
+```
+
+### MongoDB Setup
+```bash
+mongosh < part2-nosql/mongodb_operations.js
+```
+
+## Key Learnings
+
+Through this project, I gained practical experience in designing ETL pipelines, handling real-world data quality issues, and implementing relational and NoSQL data models. I learned how dimensional modeling supports analytical workloads and how MongoDB enables schema flexibility for diverse product data.
+
+## Challenges Faced
+
+1. Handling inconsistent and incomplete source data
+Solved by implementing robust transformation logic, standardization rules, and validation checks in the ETL pipeline.
+
+2. Designing a scalable analytical model
+Addressed by selecting appropriate fact granularity, using surrogate keys, and applying star schema best practices.
 
