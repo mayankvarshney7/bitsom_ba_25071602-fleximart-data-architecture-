@@ -1,1 +1,35 @@
+DATA QUALITY REPORT – FLEXIMART ETL PIPELINE
+===========================================
+
+CUSTOMERS DATA
+---------------
+Records processed: 25
+Duplicate records removed: 2
+Missing values handled: 5
+Records loaded successfully: 23
+
+PRODUCTS DATA
+--------------
+Records processed: 18
+Duplicate records removed: 1
+Missing values handled: 4
+Records loaded successfully: 17
+
+SALES DATA
+-----------
+Records processed: 40
+Duplicate records removed: 2
+Missing values handled: 6
+Records loaded successfully: 32
+
+===========================================
+ETL STATUS: COMPLETED SUCCESSFULLY
+===========================================
+
+Notes:
+- Missing customer emails were auto-generated to maintain uniqueness.
+- Missing product prices were filled using an average pricing strategy.
+- Null stock quantities were defaulted to zero.
+- Sales records with missing customer_id or product_id were excluded to preserve referential integrity.
+- Date formats were standardized to YYYY-MM-DD.
 
